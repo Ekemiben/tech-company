@@ -19,4 +19,7 @@ router.route('/updatebyid/:id')
 router.route('/deletebyid/:id')
     .delete( registrationController.deleteUser)
 
+// router.get("/getall", registrationController.getAllUsers)
+
+
 module.exports = router;
