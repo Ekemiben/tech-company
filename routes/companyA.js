@@ -6,8 +6,8 @@ const registrationController = require("../controllers/registerController")
 
 router.get("/getall", registrationController.getAllUsers)
 
-router.route('/registration')
-    .post(registrationController.creatNewUser )
+router.post('/registration', registrationController.creatNewUser)
+    
 
 router.route('/userbyid/:id')
     .get(registrationController.getUserById)
