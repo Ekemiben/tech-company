@@ -2,7 +2,7 @@
   "name": "crudapp",
   "version": "1.0.0",
   "description": "",
-  "main": "web.js",
+  "main": "index.js",
   "scripts": {
     "start": "nodemon index.js"
   },
